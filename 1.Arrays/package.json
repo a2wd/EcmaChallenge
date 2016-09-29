@@ -1,0 +1,14 @@
+{
+  "name": "1_arrays",
+  "version": "1.0.0",
+  "description": "A unit tested arrays challenge in ECMA Script",
+  "main": "app.js",
+  "scripts": {
+    "test": "node .\\node_modules\\mocha\\bin\\mocha tests" 
+  },
+  "author": "a2wd",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.1.0"
+  }
+}
