@@ -16,3 +16,24 @@ For example:
 [] -> []
 null -> <<throws an Error()>>
 ```
+
+### How-to
+
+To get started, run:
+
+`> git clone https://github.com/a2wd/EcmaChallenge.git`
+
+To finish the first challenge, first change directory to the arrays challenge, then run **npm** to get the mocha (unit-testing) dependency:
+
+```
+> cd EcmaChallenge\1.Arrays
+> npm install
+```
+
+Use *app.js* to write your code, while in development you can use `console.log` or the **node-inspector** package to check your work.
+
+When you are done, use the npm test command:
+
+`npm test`
+
+This will let you know if your code passes or if it needs more work.
