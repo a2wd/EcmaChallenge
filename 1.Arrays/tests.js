@@ -39,6 +39,18 @@ describe("1_array", function(){
 			assert.deepEqual(output, expectedOutput);
 		});
 
+		it("should correctly work for negative values", function(){
+			//Arrange
+			var input = [-12, -4, -1, 0];
+			var expectedOutput = [144, 16, 1, 0];
+
+			//Act
+			var output = one_array.squares(input);
+
+			//Assert
+			assert.deepEqual(output, expectedOutput);
+		})
+
 		it("should throw an exception when the input is missing", function(){
 			//Arrange
 			var input = null;
