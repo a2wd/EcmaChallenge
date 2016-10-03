@@ -1,0 +1,14 @@
+{
+  "name": "2_recursion",
+  "version": "1.0.0",
+  "description": "A series of unit-tested problems around recursion, in EcmaScript 2015",
+  "main": "app.js",
+  "scripts": {
+    "test": "node .\\node_modules\\mocha\\bin\\mocha tests"
+  },
+  "author": "a2wd",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.1.0"
+  }
+}
