@@ -15,6 +15,19 @@ describe("1_array", function(){
 			assert.deepEqual(output, expectedOutput);
 		});
 
+		it("should return a value without causing side effects", function(){
+			//Arrange
+			var input = [1, 2, 3, 4, 5];
+			var expectedOutput = [1, 4, 9, 16, 25];
+
+			//Act
+			var output = one_array.squares(input);
+
+			//Assert
+			assert.deepEqual(output, expectedOutput);
+			assert.deepEqual(input, [1, 2, 3, 4, 5]);
+		})
+
 		it("should return [25, 4, 81] given [5, 2, 9] as input", function(){
 			//Arrange
 			var input = [5, 2, 9];
